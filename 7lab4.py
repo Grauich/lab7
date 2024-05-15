@@ -26,7 +26,7 @@ def watermarkimg(picture):
             image.save(save_path)
 
     except FileNotFoundError:
-        print("Ошибка при открытии изображения:")
+        print("Ошибка изображения:")
 
 picture = "kosh.jpg"
 watermarkimg(picture)
